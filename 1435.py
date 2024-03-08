@@ -8,7 +8,7 @@ while True:
     for i in range(0, numero):
         matriz.append([])
         for j in range(0, numero):
-            matriz[i].append(0)
+            matriz[i].append(0) #APPEND VAI ADICIONAR
 
     if numero % 2 == 0:
         total = numero // 2
